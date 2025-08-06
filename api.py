@@ -20,7 +20,7 @@ app.add_middleware(
 
 # === Config ===
 DB_PATH = "search_results.db"
-embedder = SentenceTransformer("BAAI/bge-small-en-v1.5")
+embedder = SentenceTransformer("models/bge-small-en-v1.5")
 
 # === Utils ===
 def get_connection():
