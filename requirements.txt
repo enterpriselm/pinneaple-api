@@ -1,6 +1,6 @@
 fastapi
-uvicorn[standard]
 pandas
 numpy
-pydantic
 sentence-transformers
+asgi2wsgi
+uvicorn
